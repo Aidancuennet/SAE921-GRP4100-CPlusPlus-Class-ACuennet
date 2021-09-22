@@ -62,19 +62,6 @@ int main()
 
 	} while (continue_);
 
-	
-	
-	
-	
-		/*if (result < 7){
-			std::cout << "Game Over ! you lost your money !" << std::endl;
-		}
-		else (result > 7)
-		{
-			std::cout << "you win ! double or nothing ?" << std::endl;
-		}*/
-	
-	
 
 	
 }
