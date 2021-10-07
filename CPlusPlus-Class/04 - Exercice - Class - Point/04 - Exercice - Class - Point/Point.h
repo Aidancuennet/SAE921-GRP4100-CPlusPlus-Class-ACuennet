@@ -1,19 +1,23 @@
-#pragma once
-#include<string>
+#pragma once+
 class Point
 {
+
 private:
-	double x, y;
+	double x_, y_;
 
 public:
 	Point();
+	Point(double x, double y);
 
-	void display();
-	void fetch();
+	// input / output
+	void afficher();
+	void saisir();
 
-	void move(double dx, double dy);
-	void distanceTo(Point destination);
-	Point middleOf(Point from, Point to);
+	void deplacer(double dx, double dy);
+	double distanceTo(Point destination);
+
+	static Point middleOf(Point from, Point to);
+	Point operator+ (Point a);
 	
-};
 
+};
