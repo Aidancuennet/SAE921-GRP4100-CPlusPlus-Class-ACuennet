@@ -140,10 +140,26 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="04 - Exercice 9 - OOP - Inventory.cpp" />
+    <ClCompile Include="Bow.cpp" />
+    <ClCompile Include="HealingPotion.cpp" />
+    <ClCompile Include="Inventory.cpp" />
     <ClCompile Include="Item.cpp" />
+    <ClCompile Include="Map.cpp" />
+    <ClCompile Include="Potion.cpp" />
+    <ClCompile Include="StrengthPotion.cpp" />
+    <ClCompile Include="Sword.cpp" />
+    <ClCompile Include="Weapon.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Bow.h" />
+    <ClInclude Include="HealingPotion.h" />
+    <ClInclude Include="Inventory.h" />
     <ClInclude Include="Item.h" />
+    <ClInclude Include="Map.h" />
+    <ClInclude Include="Potion.h" />
+    <ClInclude Include="StrengthPotion.h" />
+    <ClInclude Include="Sword.h" />
+    <ClInclude Include="Weapon.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
